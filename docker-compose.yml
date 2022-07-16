@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=Root_123
+    ports:
+      - 3310:3306
+    volumes:
+      - /mysqlStorage:/var/lib/mysql
