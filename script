@@ -4,5 +4,7 @@ sudo mkdir /mysqlStorage
 
 sudo chmod 777 /mysqlStorage
 
+cd gitrepo
+
 sudo docker-compose docker-compose.yml up -d
 
